@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page App</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div style="display:inline-flex;">
+        <img src="/static/img/logo.jpg" style="padding-right:5px;" alt="logo" />
+        <h1 style=" display: flex; align-items: center;">leehoward.dev</h1>
+        </div>
+    <hr>
+    <nav class="nav">
+        <p>
+        <a href="/" class="nav__link" data-link>Home</a>
+    |    <a href="/info" class="nav__link" data-link>Info</a>
+    |    <a href="/projects" class="nav__link" data-link>Projects</a>
+        </p>
+    </nav>
+    <hr>
+    <div id="app"></div>
+    <footer>© 2023 Lee Howard</footer>
+    <script type="module" src="/static/js/index.js"></script>
+</body>
+</html>

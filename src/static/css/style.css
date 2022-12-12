@@ -1,0 +1,93 @@
+/*
+  style.css
+*/
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  line-height: 1.1;
+}
+
+hr {
+  background: #c42744 ;
+  height: 2px ;
+  border: 0px ;
+}
+
+img {
+  width: 15% ;
+  height: auto ;
+}
+
+body {
+  padding-top: 10px;
+  display: block;
+  margin: auto;
+  width: 45%;
+  font-family: 'Courier New', Courier;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+@media only screen and (max-width: 320px) {
+  div h1 {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  img {
+    width: 20% ;
+    height: auto ;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  body {
+    width: 90% ;
+  }
+  p {
+    font-size: 24pt ;
+  }
+}
+
+@media only screen and (min-width: 961px) {
+  img {
+    width: 15% ;
+    height: auto ;
+  }
+}
+
+.nav__link:hover {
+  color: #333333;
+  font-weight: bold;
+}
+
+
+a:hover {
+  color: #1dce1d ;
+}
+
+p {
+  font-size: 11pt;
+  color: #5a5252;
+}
+
+h5 {
+  font-size: 14pt ;
+  margin: 0 ;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: 1px solid;
+}
